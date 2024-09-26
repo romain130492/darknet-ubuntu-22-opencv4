@@ -57,8 +57,13 @@ make
 ```
 
 
-Run a demo with the webcam
+Run a demo with the webcam and yolov2-tiny weight. works with 8gb RAM computer.
 ```
 ./darknet detector demo cfg/coco.data cfg/yolov2-tiny.cfg /home/romain/Desktop/codebases-vision/ws_gb/src/darknet_ros/darknet_ros/yolo_network_config/weights/yolov2-tiny.weights
 
 ```
+
+- I updated the ARCH to make it work with DELL intel i5.
+
+nvcc --version
+nvidia-smi
