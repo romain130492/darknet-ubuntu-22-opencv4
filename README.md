@@ -43,3 +43,22 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 ----
 
 ![OpenCV_TRT](https://user-images.githubusercontent.com/4096485/90338805-e5e18d80-dff4-11ea-8a68-5710956256ff.png)
+
+
+
+------------
+
+
+_ I updated the makeFile to work with openCv4.
+
+```
+make clean 
+make
+```
+
+
+Run a demo with the webcam
+```
+./darknet detector demo cfg/coco.data cfg/yolov2-tiny.cfg /home/romain/Desktop/codebases-vision/ws_gb/src/darknet_ros/darknet_ros/yolo_network_config/weights/yolov2-tiny.weights
+
+```
