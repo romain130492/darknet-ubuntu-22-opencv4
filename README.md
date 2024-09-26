@@ -49,7 +49,7 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 ------------
 
 
-_ I updated the makeFile to work with openCv4.
+_ I updated the makeFile to work with openCv4. origin branch: d22bbf3
 
 ```
 make clean 
